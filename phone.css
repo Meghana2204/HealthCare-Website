@@ -1,0 +1,79 @@
+
+
+    html{
+      font-size: 55%;
+    }
+  
+    header .fa-bars{
+      display: block;
+    }
+  
+    header .nav{
+      position: fixed;
+      top:-100rem; left:50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 0 100vh rgba(0,0,0,.3);
+      border-radius: .5rem;
+      border:.3rem solid var(--blue) !important;
+      background:#fff;
+      width: 95%;
+      opacity: 0;
+    }
+    .nav{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav::before{
+        align-items: center;
+    }
+    .nav::before {
+        left: 20px;
+    }
+    .nav ul li a{
+        font-size: 1rem;
+        padding: 0px 7px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        /* position: relative; */
+        
+    }
+  
+    header .nav ul{
+      width: 100%;
+      flex-flow: column;
+      padding:2rem 0;
+    }
+  
+    header .nav ul li{
+      width: 100%;
+      text-align: center;
+      margin:1rem 0;
+    }
+  
+    header .nav ul li a{
+      font-size: 3rem;
+      display: block;
+    }
+  
+    header .nav-toggle{
+      top:50%;
+      opacity: 1;
+    }
+  
+    .contact form .inputBox input, select{
+      width: 100%;
+    }
+  
+    .contact form input[type="submit"]{
+      width:100%;
+    }
+    
+.container{
+    width: 300px;
+    height: 200px;
+}
+  
+  
